@@ -17,4 +17,4 @@ class CalcTests(SimpleTestCase):
     def test_subtract(self):
         res = calc.subtract(10, 15)
 
-        self.assetEqual(res, -5)
+        self.assertEqual(res, -5)
